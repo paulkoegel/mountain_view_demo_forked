@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/paulkogel/mountain_view.git
+  revision: 5b4bd4aafd0c8d09c5685150ac8139c56be1d206
+  branch: use-application-css
+  specs:
+    mountain_view (0.8.1)
+      rails (>= 3.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,8 +78,6 @@ GEM
     mime-types (2.99.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    mountain_view (0.8.1)
-      rails (>= 3.2.0)
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -148,7 +154,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  mountain_view
+  mountain_view!
   rails (= 4.2.6)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
