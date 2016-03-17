@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   root 'pages#index'
+  mount MountainView::Engine => "/mountain_view"
 
   resources :pages, only: :index
 
